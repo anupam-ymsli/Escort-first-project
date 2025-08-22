@@ -1,0 +1,13 @@
+{
+  "label" : {
+    "age" : "Age",
+    "firstName" : "First Nameeee",
+    "gender" : "Gender",
+    "lastName" : "Last Name",
+    "dob" : "DOB"
+  },
+  "button" : {
+    "set" : "Set",
+    "print" : "Print"
+  }
+}
