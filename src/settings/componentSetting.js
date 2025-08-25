@@ -23,4 +23,14 @@ export default {
     headers: () => ({ 'X-Auth-Token': getToken()?.accessToken }),
     baseUrl: import.meta.env.VITE_REQUEST_BASE_URL,
   },
+  VueTable:{
+      rowConfig:{
+        rowStatus:true,
+        rowStatusDefault:'NOT_MODIFIED',
+        rowStatusInsert:'NEW',
+        rowStatusUpdate:'MODIFIED',
+        rowStatusInsertUpdate:'NEW_MODIFIED',
+        rowStatusRemove:'DELETED',
+      }
+  }
 };
